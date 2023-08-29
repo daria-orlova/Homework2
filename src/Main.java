@@ -72,7 +72,7 @@ public class Main {
         var employees = totalTime / employeeTime;
         System.out.println("всего сотрудников в компании - " + employees + " человек");
         employees = employees + 94;
-        totalTime = employees * 8;
+        totalTime = employees * employeeTime;
         System.out.println("если в компании работает " + employees + " человек, то всего " + totalTime + " часов работы может быть поделено между сотрудниками");
     }
 }
